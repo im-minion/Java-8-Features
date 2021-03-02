@@ -1,4 +1,4 @@
-package streams.apis;
+package streams.apis.basic;
 
 import java.util.ArrayList;
 import java.util.Optional;
