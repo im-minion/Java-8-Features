@@ -14,7 +14,7 @@ public class ReductionOperation {
 
 
         // get max using reduce operation
-        int max = myList.stream().reduce(Integer.MIN_VALUE, (a, b) -> a > b ? a: b);
+        int max = myList.stream().reduce(Integer.MIN_VALUE, (a, b) -> a > b ? a : b);
         System.out.println("max as int: " + max);
 
         // Two ways to obtain the integer product of the elements in myList by use of reduce().
@@ -37,7 +37,7 @@ public class ReductionOperation {
         //  "combiner" version of "reduce( )" to compute the product of the square roots of each element in the list
         // This is now a list of double values.
 
-        ArrayList<Double> myDoubleList = new ArrayList<>( );
+        ArrayList<Double> myDoubleList = new ArrayList<>();
         myDoubleList.add(7.0);
         myDoubleList.add(18.0);
         myDoubleList.add(10.0);
@@ -47,8 +47,8 @@ public class ReductionOperation {
 
         double productOfSqrRoots = myDoubleList.parallelStream().reduce(
                 1.0,
-                (a,b) -> a * Math.sqrt(b),
-                (a,b) -> a * b
+                (a, b) -> a * Math.sqrt(b),
+                (a, b) -> a * b
         );
         System.out.println("Product of square roots: " + productOfSqrRoots);
 
