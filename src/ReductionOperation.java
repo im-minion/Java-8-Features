@@ -25,7 +25,7 @@ public class ReductionOperation {
         int product = myList.stream().reduce(1, (a, b) -> a * b);
         System.out.println("Product as int: " + product);
 
-        // paralel streams
+        // Parallel streams
         product = myList.parallelStream().reduce(1, (a, b) -> a * b);
         System.out.println("Parallel performed Product as int: " + product);
 
