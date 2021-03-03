@@ -56,7 +56,6 @@ public class CollectingStreams {
         // a second version that gives you more control over the
         // collection process. It is shown here:
         // <R> R collect(Supplier<R> target, BiConsumer<R, ? super T> accumulator, BiConsumer <R, R> combiner)
-
         LinkedList<NamePhone> npList2 = nameAndPhone.collect(
                 () -> new LinkedList<>(),
                 (list, element) -> list.add(element),
