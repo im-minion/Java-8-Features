@@ -8,7 +8,7 @@ package lambdas;
  * those lambdas called as block lambdas.
  *
  * */
-public class BlockLambdas {
+public class L_02_BlockLambdas {
     public static void main(String[] args) {
         NumericFunc n = (val) -> {
             int res = 1;

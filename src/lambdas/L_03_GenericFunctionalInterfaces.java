@@ -5,7 +5,7 @@ package lambdas;
  *  (Of course, because of type inference, all lambda expressions exhibit some “generic-like” qualities.)
  * However, the functional interface associated with a lambda expression can be generic.
  */
-public class GenericFunctionalInterfaces {
+public class L_03_GenericFunctionalInterfaces {
     public static void main(String[] args) {
         // Use a String-based version of SomeFunc.
         SomeFunc<String> reverse = (str) -> {

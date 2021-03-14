@@ -33,7 +33,7 @@ package lambdas;
  * */
 
 
-public class Basics {
+public class L_01_Basics {
     public static void main(String[] args) {
         MyNumber m = () -> 90;
         System.out.println("MyNumber m ::" + m.getValue());

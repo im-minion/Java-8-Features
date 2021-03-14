@@ -1,6 +1,6 @@
 package lambdas;
 
-public class LambdasExpressionAndVariableCapture {
+public class L_05_LambdasExpressionAndVariableCapture {
     public static void main(String[] args) {
         // A local variable that can be captured.
         int num = 10;

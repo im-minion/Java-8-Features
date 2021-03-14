@@ -1,6 +1,6 @@
 package lambdas;
 
-public class LambdasWithException {
+public class L_06_LambdasWithException {
     public static void main(String[] args) throws EmptyArrayException {
         double[] values = {1.0, 2.0, 3.0, 4.0};
         // This block lambda computes the average of an array of doubles.

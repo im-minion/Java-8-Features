@@ -1,6 +1,6 @@
 package lambdas;
 
-public class PassingLambdasAsExpression {
+public class L_04_PassingLambdasAsExpression {
 
     public static void main(String[] args) {
         String inStr = "Lambdas add power to Java";
