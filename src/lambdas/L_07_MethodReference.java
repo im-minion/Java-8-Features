@@ -11,6 +11,7 @@ public class L_07_MethodReference {
         String inStr = "Lambdas add power to Java";
         String outStr;
         // Here, a method reference to strReverse is passed to stringOp().
+//        outStr = stringOp((str) -> MyStringOps.strReverse(str), inStr); // or can be written as
         outStr = stringOp(MyStringOps::strReverse, inStr); // strReverse is static
         System.out.println("Original string: " + inStr);
         System.out.println("String reversed: " + outStr);

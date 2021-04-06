@@ -51,6 +51,7 @@ public class MappingInStreams {
 
         // The following statement uses filter( ) and then map( ) to produce a new stream that contains
         // only the name and phone number of the elements with the name "James":
+        namePhoneStream = namePhoneEmailList.stream().map((obj) -> new NamePhone(obj.name, obj.phonenum));
         Stream<NamePhone> namePhoneStream1 = namePhoneEmailList.stream().filter(e -> "James".equals(e.name)).map((obj) -> new NamePhone(obj.name, obj.phonenum));
         System.out.println("List of names and phone numbers after filtering: ");
         namePhoneStream.forEach((a) -> {
@@ -69,7 +70,8 @@ public class MappingInStreams {
 
         // Map the ceiling of the elements in myList to an IntStream.
         IntStream cStrm = myList.stream().mapToInt((a) -> (int) Math.ceil(a));
-
+        int[] arr = cStrm.toArray(); // alowed
+        cStrm = myList.stream().mapToInt((a) -> (int) Math.ceil(a));
         System.out.print("The ceilings of the values in myList: ");
         cStrm.forEach((a) -> {
             System.out.print(a + " ");
