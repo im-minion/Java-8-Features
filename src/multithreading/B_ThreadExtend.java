@@ -1,6 +1,6 @@
 package multithreading;
 
-public class ThreadExtend {
+public class B_ThreadExtend {
     public static void main(String[] args) {
         new MyThread();
         try {
