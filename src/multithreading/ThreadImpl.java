@@ -1,6 +1,6 @@
 package multithreading;
 
-public class ThreadDemo {
+public class ThreadImpl {
     public static void main(String[] args) {
         new NewThread();
         try {
