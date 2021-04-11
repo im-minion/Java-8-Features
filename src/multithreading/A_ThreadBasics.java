@@ -1,6 +1,6 @@
 package multithreading;
 
-public class ThreadBasics {
+public class A_ThreadBasics {
     public static void main(String args[]) {
         Thread t = Thread.currentThread(); // gets the main thread
         System.out.println("Current thread: " + t);
