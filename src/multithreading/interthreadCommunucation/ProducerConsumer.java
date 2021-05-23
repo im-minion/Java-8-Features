@@ -26,7 +26,7 @@ public class ProducerConsumer {
 
 class Q {
     int n;
-    boolean valueSet = false;
+    boolean valueSet = false; // lock variable
 
     public synchronized int get() {
         while (!valueSet) { // until value is not set we need to wait
