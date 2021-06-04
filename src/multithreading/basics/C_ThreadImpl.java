@@ -1,4 +1,4 @@
-package multithreading;
+package multithreading.basics;
 
 public class C_ThreadImpl {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package multithreading;
+package multithreading.basics;
 
 public class D_MultipleThreads {
     public static void main(String[] args) {

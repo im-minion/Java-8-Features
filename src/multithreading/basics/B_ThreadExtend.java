@@ -1,4 +1,4 @@
-package multithreading;
+package multithreading.basics;
 
 public class B_ThreadExtend {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package multithreading;
+package multithreading.basics;
 
 /*
  * Two ways exist to determine whether a thread has finished. First, you can call isAlive( ) on the thread.
